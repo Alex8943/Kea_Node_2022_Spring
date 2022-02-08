@@ -34,13 +34,15 @@ Object.keys(info).forEach((key) => {
 // Exercise 3 - Add a property 
 
 const stackOverflow = {
-   rule ,isAllowed = true
-}; 
+    name: "Alexander",
 
+};
 
-
+console.log("Hello my name is", stackOverflow.name); 
 
 // make a rule called isAllowed and let the value be true
+
+
 
 
 
