@@ -22,15 +22,15 @@ console.log(doingSomething(drinking, "Somebody "));
 
 
 
+const drinking = (name) => name + "is drinking"
 
+console.log(doingSomething(drinking, "test")); 
 
+// Dette er en måde at skrive det på en linje
 
+const result = doingSomething(name => + "is studying", "Alexander"); 
 
-
-
-
-
-
+console.log(result); 
 
 
 /*

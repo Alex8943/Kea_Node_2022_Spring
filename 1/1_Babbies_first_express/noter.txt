@@ -4,3 +4,6 @@
 // meta-data (version, navn på projektet)
 
 {} = husk at kalde det curly bracket
+
+
+
