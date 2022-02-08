@@ -1,0 +1,6 @@
+//pom.xml indeholder dependencies (version)
+// package the project 
+// build steps => scripts
+// meta-data (version, navn på projektet)
+
+{} = husk at kalde det curly bracket

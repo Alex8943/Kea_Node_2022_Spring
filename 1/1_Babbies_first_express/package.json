@@ -1,3 +1,5 @@
-//pom.xml indeholder dependencies (version)
-// package the project 
-//
+{
+    "dependencies": {
+        "express": "^4.17.2"
+    }
+}
