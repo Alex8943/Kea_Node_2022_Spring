@@ -27,8 +27,28 @@ app.post("/", ( req, res) => {
 }); 
 
 
+// task 1: create a route about that send some info to the server. 
+// task 2: implement a post request handler on the endpoint 
+//opinion based on the client data the server sends a response that contains an opinion
+
+
+    app.get("/about", (req, res) => {
+        req.send({
+            version: "0.0.1"
+        }); 
+    });
+
+app.post("/about", (req, res) => {
+    res.send({ message: "Hello this is my server"}); 
+
+    console.log(req.body);
+});
+
+
 app.listen(8080); 
-//ctr c for at stoppe porten!! 
+//Ctrl c for at stoppe porten!! 
+
+
 
 
 
